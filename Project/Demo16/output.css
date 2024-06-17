@@ -553,3 +553,105 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.m-0 {
+  margin: 0px;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-\[11000px\] {
+  width: 11000px;
+}
+
+.w-\[1000px\] {
+  width: 1000px;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[1050px\] {
+  width: 1050px;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-violet-400 {
+  --tw-text-opacity: 1;
+  color: rgb(167 139 250 / var(--tw-text-opacity));
+}
+
+.text-violet-700 {
+  --tw-text-opacity: 1;
+  color: rgb(109 40 217 / var(--tw-text-opacity));
+}
