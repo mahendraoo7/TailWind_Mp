@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo18</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="m-0 p-0 flex justify-center">
+
+        <div class="flex flex-col justify-center gap-4 mt-10" >
+
+            <div class="">
+                <h1 class="font-semibold">Send Files to this email :</h1>
+                <input class="ring-2 ring-gray-300 w-[400px] pl-5 mt-4 rounded-md p-2" type="email" name="" id="" placeholder="example@domain.com">
+            </div>
+
+            <div>
+                <h1 class="font-bold">Upload File</h1>
+                <div class="flex h-[200px] w-[400px] border-2 border-dotted border-black justify-center items-center mt-5 rounded-md">
+                    <div class="flex flex-col justify-center">
+                   <h1 class="font-semibold text-[20px] flex justify-center"> Drope Files here </h1>
+                   <h1 class="flex justify-center">Or</h1>
+                   <div class="flex justify-center">
+                   <input class="flex justify-center h-[30px] w-[100px] text-white border-white" type="file" name="Browse" id="" placeholder="Browse">
+                   <!-- <button class="h-[35px] border-2 w-[100px]">Browse</button> -->
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="flex flex-col gap-4">
+                <h1 class=" flex justify-between h-[40px] w-[400px] bg-blue-50 pl-5 font-semibold text-[15px] items-center rounded-md pr-5">banner-design.png<i class=" fa-solid fa-xmark"></i></h1>
+        
+                 <div class="flex flex-col w-[400px] h-[60px] bg-blue-50 rounded-md font-semibold pl-5 overflow-hidden justify-center gap-3">
+                <label for="file" class="flex justify-between pr-5 ">banner-design.png<i class="fa-solid fa-xmark"></i></label>
+                <progress class="w-[350px] h-[5px] " id="file" value="400" max="500" ></progress>
+                </div>
+            </div>
+
+            <div class="flex justify-center items-center">
+                <button class="rounded-md flex bg-indigo-600 w-[400px] h-[40px] justify-center items-center font-semibold text-white">Send File </button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
